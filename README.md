@@ -62,9 +62,3 @@ On Windows, replace `:` with `;` in the classpath.
 | `DBConnection.java`  | JDBC — establishing a database connection            |
 | `EmployeeDAO.java`   | SQL + JDBC — `PreparedStatement`, CRUD queries        |
 | `Main.java`          | Application flow, `Scanner` input, control structures |
-
-## Possible next steps (once comfortable with the basics)
-- Add input validation (e.g. reject invalid emails, negative salaries)
-- Switch raw JDBC to a connection pool (HikariCP)
-- Add a simple JUnit test for `EmployeeDAO`
-- Wrap this in a small Spring Boot REST API instead of a console menu
