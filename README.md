@@ -63,16 +63,6 @@ On Windows, replace `:` with `;` in the classpath.
 | `EmployeeDAO.java`   | SQL + JDBC — `PreparedStatement`, CRUD queries        |
 | `Main.java`          | Application flow, `Scanner` input, control structures |
 
-## Git
-This project is meant to be pushed to GitHub as a portfolio piece. Suggested first commit:
-```bash
-git init
-git add .
-git commit -m "Initial commit: Employee Management System CRUD app"
-git remote add origin <your-repo-url>
-git push -u origin main
-```
-
 ## Possible next steps (once comfortable with the basics)
 - Add input validation (e.g. reject invalid emails, negative salaries)
 - Switch raw JDBC to a connection pool (HikariCP)
